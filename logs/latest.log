@@ -1,0 +1,866 @@
+[20Jun2024 00:06:34.762] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserver, --fml.forgeVersion, 43.4.0, --fml.mcVersion, 1.19.2, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20220805.130853]
+[20Jun2024 00:06:34.766] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.8+10.0.8+main.0ef7e830 starting: java version 21.0.3 by Oracle Corporation; OS Mac OS X arch x86_64 version 14.4.1
+[20Jun2024 00:06:35.572] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/Users/mizuochishoutarou/Desktop/min/libraries/org/spongepowered/mixin/0.8.5/mixin-0.8.5.jar%2363!/ Service=ModLauncher Env=SERVER
+[20Jun2024 00:06:35.943] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/mizuochishoutarou/Desktop/min/libraries/net/minecraftforge/fmlcore/1.19.2-43.4.0/fmlcore-1.19.2-43.4.0.jar is missing mods.toml file
+[20Jun2024 00:06:35.945] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/mizuochishoutarou/Desktop/min/libraries/net/minecraftforge/javafmllanguage/1.19.2-43.4.0/javafmllanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[20Jun2024 00:06:35.947] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/mizuochishoutarou/Desktop/min/libraries/net/minecraftforge/lowcodelanguage/1.19.2-43.4.0/lowcodelanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[20Jun2024 00:06:35.949] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file /Users/mizuochishoutarou/Desktop/min/libraries/net/minecraftforge/mclanguage/1.19.2-43.4.0/mclanguage-1.19.2-43.4.0.jar is missing mods.toml file
+[20Jun2024 00:06:36.102] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[20Jun2024 00:06:38.474] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[20Jun2024 00:06:38.643] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserver' with arguments []
+[20Jun2024 00:06:38.776] [main/INFO] [com.abdelaziz.saturn.common.Saturn/]: Loaded Saturn config file with 4 configurable options
+[20Jun2024 00:06:38.902] [main/WARN] [CanaryConfig/]: Mod 'pluto' attempted to override option 'mixin.world.player_chunk_tick', which doesn't exist, ignoring
+[20Jun2024 00:06:38.910] [main/INFO] [Canary/]: Loaded configuration file for Canary: 117 options available, 0 override(s) found
+[20Jun2024 00:06:38.917] [main/WARN] [mixin/]: Reference map 'coroutil.refmap.json' for coroutil.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jun2024 00:06:38.932] [main/WARN] [mixin/]: Reference map 'kawaiidishes.refmap.json' for KawaiiDishes.mixins.json could not be read. If this is a development environment you can ignore this message
+[20Jun2024 00:06:40.205] [main/WARN] [mixin/]: Error loading class: com/simibubi/create/content/fluids/spout/FillingBySpout (java.lang.ClassNotFoundException: com.simibubi.create.content.fluids.spout.FillingBySpout)
+[20Jun2024 00:06:46.162] [main/INFO] [net.minecraft.util.datafix.DataFixers/]: Building unoptimized datafixer
+[20Jun2024 00:06:47.733] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: Ars Omega Constructor
+[20Jun2024 00:06:47.807] [modloading-worker-0/INFO] [coroutil/]: forge loader environment detected
+[20Jun2024 00:06:47.813] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id architectury:sync_ids
+[20Jun2024 00:06:47.819] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:key_pressed
+[20Jun2024 00:06:47.821] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:mode_changed
+[20Jun2024 00:06:47.825] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftbultimine:sync_config_to_server
+[20Jun2024 00:06:47.874] [modloading-worker-0/INFO] [dev.architectury.networking.forge.NetworkManagerImpl/]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[20Jun2024 00:06:47.914] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 43.4.0, for MC 1.19.2 with MCP 20220805.130853
+[20Jun2024 00:06:47.915] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v43.4.0 Initialized
+[20Jun2024 00:06:48.129] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: basic config ritual constructor called! 
+[20Jun2024 00:06:48.130] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: no config to copy, hopefully this is registration
+[20Jun2024 00:06:48.130] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: basic config ritual constructor called! 
+[20Jun2024 00:06:48.130] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: no config to copy, hopefully this is registration
+[20Jun2024 00:06:48.722] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: defining config for: arsomega:ritual_aura
+[20Jun2024 00:06:48.722] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: building config for ritual: arsomega:ritual_aura
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: ritual arsomega:ritual_aura does not define duration.
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: ritual arsomega:ritual_aura does not define range.
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: ritual arsomega:ritual_aura does not define extra config. 
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: defined config for: arsomega:ritual_aura
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: defining config for: arsomega:ritual_advanced_overgrowth
+[20Jun2024 00:06:48.723] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: building config for ritual: arsomega:ritual_advanced_overgrowth
+[20Jun2024 00:06:48.724] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: ritual arsomega:ritual_advanced_overgrowth does not define duration.
+[20Jun2024 00:06:48.724] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: ritual arsomega:ritual_advanced_overgrowth does not define extra config. 
+[20Jun2024 00:06:48.724] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: defined config for: arsomega:ritual_advanced_overgrowth
+[20Jun2024 00:06:55.621] [modloading-worker-0/INFO] [com.dkmk100.arsomega.ArsOmega/]: Initializing Reflection Handler
+[20Jun2024 00:06:55.630] [modloading-worker-0/INFO] [cn.foggyhillside.endsdelight.EndsDelight/]: HELLO FROM PREINIT
+[20Jun2024 00:06:55.630] [modloading-worker-0/INFO] [cn.foggyhillside.endsdelight.EndsDelight/]: DIRT BLOCK >> translation{key='block.minecraft.dirt', args=[]}
+[20Jun2024 00:06:55.773] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Starting version check at https://github.com/AbdElAziz333/Saturn/raw/mc1.20.1/dev/updates.json
+[20Jun2024 00:06:55.877] [main/INFO] [journeymap/]: Initializing Packet Registries
+[20Jun2024 00:06:55.955] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 1000) with the ID 0
+[20Jun2024 00:06:55.956] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 1000) with the ID 1
+[20Jun2024 00:06:55.959] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for Uncraftable Potion (Fluid Amount Required: 250) with the ID 2
+[20Jun2024 00:06:55.959] [main/INFO] [com.tiviacz.travelersbackpack.TravelersBackpack/]: Registered the FluidEffect with Unique ID of minecraft:milk for Milk (Fluid Amount Required: 1000) with the ID 3
+[20Jun2024 00:06:56.098] [main/INFO] [terrablender/]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[20Jun2024 00:06:56.098] [main/INFO] [terrablender/]: Registered region minecraft:nether to index 0 for type NETHER
+[20Jun2024 00:06:56.099] [main/INFO] [terrablender/]: Registered region ars_nouveau:overworld to index 1 for type OVERWORLD
+[20Jun2024 00:06:56.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [saturn] Found status: AHEAD Current: 0.1.4 Target: null
+[20Jun2024 00:06:56.228] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [collectorsreap] Starting version check at https://raw.githubusercontent.com/brnbrd/CollectorsReap/1.19/update.json
+[20Jun2024 00:06:56.282] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [collectorsreap] Found status: OUTDATED Current: 1.2.4 Target: 1.3
+[20Jun2024 00:06:56.293] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [smoothboot] Starting version check at https://github.com/AbdElAziz333/SmoothBoot-Reloaded/raw/mc1.19.2/dev/updates.json
+[20Jun2024 00:06:56.478] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.0.jar%23184!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.0.jar%23184!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[20Jun2024 00:06:56.481] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Starting version check at https://update.maxhenkel.de/forge/gravestone
+[20Jun2024 00:06:57.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [gravestone] Found status: AHEAD Current: 1.19.2-1.0.15 Target: null
+[20Jun2024 00:06:57.450] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Starting version check at https://updates.blamejared.com/get?n=clumps&gv=1.19.2
+[20Jun2024 00:06:58.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [clumps] Found status: BETA Current: 9.0.0+14 Target: 9.0.0+14
+[20Jun2024 00:06:58.367] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Starting version check at https://forge.curseupdate.com/32274/journeymap
+[20Jun2024 00:06:59.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [journeymap] Found status: UP_TO_DATE Current: 5.9.8 Target: null
+[20Jun2024 00:06:59.061] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Starting version check at https://gist.githubusercontent.com/Tiviacz1337/906937677aa472285dff9d6c2a189d5e/raw
+[20Jun2024 00:06:59.210] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [travelersbackpack] Found status: UP_TO_DATE Current: 8.2.40 Target: null
+[20Jun2024 00:06:59.211] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Starting version check at https://github.com/AbdElAziz333/Canary/raw/mc1.19.2/dev/updates.json
+[20Jun2024 00:06:59.296] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20Jun2024 00:06:59.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [canary] Found status: UP_TO_DATE Current: 0.3.3 Target: null
+[20Jun2024 00:06:59.299] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [pluto] Starting version check at https://github.com/AbdElAziz333/Pluto/blob/mc1.19.2/dev/updates.json
+[20Jun2024 00:06:59.363] [Forge Version Check/WARN] [net.minecraftforge.fml.VersionChecker/]: Failed to process update information
+com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.Gson.fromJson(Gson.java:975) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:928) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:877) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:848) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.fml.VersionChecker$1.process(VersionChecker.java:183) ~[fmlcore-1.19.2-43.4.0.jar%23184!/:?]
+	at java.lang.Iterable.forEach(Iterable.java:75) [?:?]
+	at net.minecraftforge.fml.VersionChecker$1.run(VersionChecker.java:114) [fmlcore-1.19.2-43.4.0.jar%23184!/:?]
+Caused by: java.lang.IllegalStateException: Expected BEGIN_OBJECT but was STRING at line 7 column 1 path $
+	at com.google.gson.stream.JsonReader.beginObject(JsonReader.java:384) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:183) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.MapTypeAdapterFactory$Adapter.read(MapTypeAdapterFactory.java:145) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	... 6 more
+[20Jun2024 00:06:59.365] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Starting version check at https://mrcrayfish.com/modupdatejson?id=cfm
+[20Jun2024 00:07:01.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [cfm] Found status: BETA Current: 7.0.0-pre35 Target: 7.0.0-pre35
+[20Jun2024 00:07:01.248] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Starting version check at https://files.minecraftforge.net/net/minecraftforge/forge/promotions_slim.json
+[20Jun2024 00:07:01.659] [Forge Version Check/INFO] [net.minecraftforge.fml.VersionChecker/]: [forge] Found status: UP_TO_DATE Current: 43.4.0 Target: null
+[20Jun2024 00:07:02.380] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/mizuochishoutarou/Desktop/min/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23183!/assets/.mcassetsroot' uses unexpected schema
+[20Jun2024 00:07:02.381] [main/WARN] [net.minecraft.server.packs.VanillaPackResources/]: Assets URL 'union:/Users/mizuochishoutarou/Desktop/min/libraries/net/minecraft/server/1.19.2-20220805.130853/server-1.19.2-20220805.130853-srg.jar%23183!/data/.mcassetsroot' uses unexpected schema
+[20Jun2024 00:07:04.719] [Worker-Main1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:beetroot_soup from minecraft:recipes/beetroot_soup.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	... 11 more
+[20Jun2024 00:07:05.062] [Worker-Main1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:mushroom_stew from minecraft:recipes/mushroom_stew.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	... 11 more
+[20Jun2024 00:07:05.148] [Worker-Main1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_brown_mushroom from minecraft:recipes/rabbit_stew_from_brown_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	... 11 more
+[20Jun2024 00:07:05.149] [Worker-Main1/ERROR] [net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener/]: Couldn't parse data file minecraft:rabbit_stew_from_red_mushroom from minecraft:recipes/rabbit_stew_from_red_mushroom.json
+com.google.gson.JsonParseException: java.io.EOFException: End of input at line 1 column 1 path $
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:512) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13776_(GsonHelper.java:549) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:43) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimpleJsonResourceReloadListener.m_5944_(SimpleJsonResourceReloadListener.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10786_(SimplePreparableReloadListener.java:11) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) [?:?]
+	at java.util.concurrent.CompletableFuture$AsyncSupply.exec(CompletableFuture.java:1760) [?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) [?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) [?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) [?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) [?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) [?:?]
+Caused by: java.io.EOFException: End of input at line 1 column 1 path $
+	at com.google.gson.stream.JsonReader.nextNonWhitespace(JsonReader.java:1395) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.doPeek(JsonReader.java:548) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.stream.JsonReader.peek(JsonReader.java:424) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:661) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$27.read(TypeAdapters.java:655) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapters$33$1.read(TypeAdapters.java:866) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13780_(GsonHelper.java:510) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	... 11 more
+[20Jun2024 00:07:05.580] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/portobello_wrap as it's serializer returned null
+[20Jun2024 00:07:05.631] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/strawberry as it's serializer returned null
+[20Jun2024 00:07:05.635] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_life
+[20Jun2024 00:07:05.635] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_life
+[20Jun2024 00:07:05.635] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_life
+[20Jun2024 00:07:05.635] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_life
+[20Jun2024 00:07:05.640] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ends_delight:brewing/chorus_fruit_milk_tea
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:05.656] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/passionfruit as it's serializer returned null
+[20Jun2024 00:07:05.668] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.668] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_bloom_seed
+[20Jun2024 00:07:05.670] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/pomegranate as it's serializer returned null
+[20Jun2024 00:07:05.674] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/black_tea as it's serializer returned null
+[20Jun2024 00:07:05.678] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/lime_milkshake as it's serializer returned null
+[20Jun2024 00:07:05.714] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.714] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_amplifier
+[20Jun2024 00:07:05.716] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.716] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_regen
+[20Jun2024 00:07:05.725] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.725] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.725] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.725] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:archmage_staff
+[20Jun2024 00:07:05.726] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.726] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.727] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.727] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_mana_amulet
+[20Jun2024 00:07:05.728] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_black_tea as it's serializer returned null
+[20Jun2024 00:07:05.732] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/lime_milkshake_from_ice_cream as it's serializer returned null
+[20Jun2024 00:07:05.744] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/mint as it's serializer returned null
+[20Jun2024 00:07:05.751] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ends_delight:brewing/chorus_flower_tea
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:05.755] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.755] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_regen
+[20Jun2024 00:07:05.760] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/mint_limeade_from_limeade as it's serializer returned null
+[20Jun2024 00:07:05.762] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.762] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_regen_amulet
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.764] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_advanced_alchemy
+[20Jun2024 00:07:05.772] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.772] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_demonic_gem
+[20Jun2024 00:07:05.773] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:lime_ice_cream_block as it's serializer returned null
+[20Jun2024 00:07:05.783] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:pomegranate_ice_cream_block as it's serializer returned null
+[20Jun2024 00:07:05.787] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/adzuki as it's serializer returned null
+[20Jun2024 00:07:05.787] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/vanilla as it's serializer returned null
+[20Jun2024 00:07:05.796] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/coffee as it's serializer returned null
+[20Jun2024 00:07:05.797] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.797] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_staff
+[20Jun2024 00:07:05.818] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_pork_from_hoglin as it's serializer returned null
+[20Jun2024 00:07:05.826] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/mint_limeade as it's serializer returned null
+[20Jun2024 00:07:05.837] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/black_tea as it's serializer returned null
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.840] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_mirror_shard
+[20Jun2024 00:07:05.884] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_diamond
+[20Jun2024 00:07:05.884] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_diamond
+[20Jun2024 00:07:05.884] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_diamond
+[20Jun2024 00:07:05.884] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_diamond
+[20Jun2024 00:07:05.884] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanted_diamond
+[20Jun2024 00:07:05.889] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/chocolate_arils as it's serializer returned null
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.900] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_wool
+[20Jun2024 00:07:05.913] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/yucca as it's serializer returned null
+[20Jun2024 00:07:05.918] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/aloe as it's serializer returned null
+[20Jun2024 00:07:05.920] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/lime_ice_cream as it's serializer returned null
+[20Jun2024 00:07:05.932] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/coffee as it's serializer returned null
+[20Jun2024 00:07:05.935] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/yellow_tea as it's serializer returned null
+[20Jun2024 00:07:05.952] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.952] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:enchanters_cloak
+[20Jun2024 00:07:05.954] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/melon as it's serializer returned null
+[20Jun2024 00:07:05.955] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/aloe as it's serializer returned null
+[20Jun2024 00:07:05.960] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_smoothie as it's serializer returned null
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.961] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:reflective_coating
+[20Jun2024 00:07:05.964] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_milkshake_from_ice_cream as it's serializer returned null
+[20Jun2024 00:07:05.966] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-8/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.966] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:potion_extender
+[20Jun2024 00:07:05.969] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/strawberry_jam_bun as it's serializer returned null
+[20Jun2024 00:07:05.969] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/strawberry as it's serializer returned null
+[20Jun2024 00:07:05.978] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/banana as it's serializer returned null
+[20Jun2024 00:07:05.987] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/pumpkin as it's serializer returned null
+[20Jun2024 00:07:05.991] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.992] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:staff
+[20Jun2024 00:07:05.993] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.993] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_arcane_discount
+[20Jun2024 00:07:05.994] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/green_tea as it's serializer returned null
+[20Jun2024 00:07:05.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/passionfruit as it's serializer returned null
+[20Jun2024 00:07:05.996] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mint as it's serializer returned null
+[20Jun2024 00:07:05.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/vanilla as it's serializer returned null
+[20Jun2024 00:07:05.997] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/yucca as it's serializer returned null
+[20Jun2024 00:07:05.997] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:05.997] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_mana_amulet
+[20Jun2024 00:07:06.004] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_bean_salad as it's serializer returned null
+[20Jun2024 00:07:06.008] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/adzuki as it's serializer returned null
+[20Jun2024 00:07:06.008] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/lime_green_tea as it's serializer returned null
+[20Jun2024 00:07:06.012] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/chocolate as it's serializer returned null
+[20Jun2024 00:07:06.013] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/green_tea as it's serializer returned null
+[20Jun2024 00:07:06.018] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_ice_cream as it's serializer returned null
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.034] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_cloth
+[20Jun2024 00:07:06.036] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe ends_delight:brewing/bubble_tea
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'farmersrespite:brewing'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.039] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_of_alchemy
+[20Jun2024 00:07:06.048] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.048] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:greater_regen_amulet
+[20Jun2024 00:07:06.050] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/pomegranate_milkshake as it's serializer returned null
+[20Jun2024 00:07:06.052] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:stability_cloak
+[20Jun2024 00:07:06.052] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/pumpkin as it's serializer returned null
+[20Jun2024 00:07:06.054] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.054] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:focus_mana
+[20Jun2024 00:07:06.055] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/yellow_tea as it's serializer returned null
+[20Jun2024 00:07:06.062] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/banana as it's serializer returned null
+[20Jun2024 00:07:06.063] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_diamond
+[20Jun2024 00:07:06.063] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_diamond
+[20Jun2024 00:07:06.063] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_diamond
+[20Jun2024 00:07:06.063] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:arcane_diamond
+[20Jun2024 00:07:06.070] [main/ERROR] [net.minecraft.world.item.crafting.RecipeManager/]: Parsing error loading recipe culturaldelights:fermenting/pickle
+com.google.gson.JsonSyntaxException: Invalid or unsupported recipe type 'brewinandchewin:fermenting'
+	at net.minecraft.world.item.crafting.RecipeManager.m_220253_(RecipeManager.java:170) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.world.item.crafting.RecipeManager.fromJson(RecipeManager.java:169) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:67) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.item.crafting.RecipeManager.m_5787_(RecipeManager.java:34) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:06.071] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/spicy_grenadine_jelly as it's serializer returned null
+[20Jun2024 00:07:06.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/apple as it's serializer returned null
+[20Jun2024 00:07:06.073] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/lime_popsicle_from_ice_cubes as it's serializer returned null
+[20Jun2024 00:07:06.078] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/chocolate as it's serializer returned null
+[20Jun2024 00:07:06.079] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:food/glazed_strider as it's serializer returned null
+[20Jun2024 00:07:06.080] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Skipping loading recipe collectorsreap:gummy/mixing/lime as it's serializer returned null
+[20Jun2024 00:07:06.084] [main/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-5/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-7/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-3/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-1/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-4/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-6/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.084] [ForkJoinPool.commonPool-worker-2/WARN] [ars_nouveau/]: Use of deprecated recipe format in recipe ID: arsomega:ring_boost
+[20Jun2024 00:07:06.093] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 55 recipes
+[20Jun2024 00:07:06.192] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table culturaldelights:blocks/exotic_roll_medley_block
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:exotic_roll_medley_block'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.0-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:06.726] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table culturaldelights:blocks/avocado_leaf_carpet
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:avocado_leaf_carpet'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.0-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:06.780] [main/ERROR] [net.minecraft.world.level.storage.loot.LootTables/]: Couldn't parse loot table culturaldelights:blocks/avocado_bundle
+com.google.gson.JsonSyntaxException: Expected name to be an item, was unknown string 'culturaldelights:avocado_bundle'
+	at net.minecraft.util.GsonHelper.m_13866_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.util.GsonHelper.m_13874_(GsonHelper.java:137) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13909_(GsonHelper.java:145) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:55) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootItem$Serializer.m_7267_(LootItem.java:40) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:151) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolSingletonContainer$Serializer.m_5921_(LootPoolSingletonContainer.java:129) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.m_5921_(CompositeEntryBase.java:61) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.CompositeEntryBase$1.m_5921_(CompositeEntryBase.java:53) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:86) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.entries.LootPoolEntryContainer$Serializer.m_7561_(LootPoolEntryContainer.java:74) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.GsonAdapterFactory$JsonAdapter.deserialize(GsonAdapterFactory.java:102) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13836_(GsonHelper.java:463) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:190) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootPool$Serializer.deserialize(LootPool.java:187) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:41) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:162) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraft.util.GsonHelper.m_13808_(GsonHelper.java:455) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.util.GsonHelper.m_13845_(GsonHelper.java:473) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:256) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTable$Serializer.deserialize(LootTable.java:253) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:69) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:963) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1034) ~[gson-2.8.9.jar%2370!/:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1006) ~[gson-2.8.9.jar%2370!/:?]
+	at net.minecraftforge.common.ForgeHooks.loadLootTable(ForgeHooks.java:929) ~[forge-1.19.2-43.4.0-universal.jar%23188!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.lambda$apply$0(LootTables.java:41) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:38) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.world.level.storage.loot.LootTables.m_5787_(LootTables.java:16) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.packs.resources.SimplePreparableReloadListener.m_10789_(SimplePreparableReloadListener.java:13) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214652_(Util.java:781) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.Util.m_214679_(Util.java:770) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at net.minecraft.server.Main.main(Main.java:157) ~[server-1.19.2-20220805.130853-srg.jar%23183!/:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:580) ~[?:?]
+	at net.minecraftforge.fml.loading.targets.CommonServerLaunchHandler.lambda$launchService$0(CommonServerLaunchHandler.java:29) ~[fmlloader-1.19.2-43.4.0.jar%2367!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.run(Launcher.java:106) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.Launcher.main(Launcher.java:77) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23) [modlauncher-10.0.8.jar%2354!/:?]
+	at cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141) [bootstraplauncher-1.1.2.jar:?]
+[20Jun2024 00:07:06.859] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: deserializing set spell function
+[20Jun2024 00:07:06.860] [main/ERROR] [com.dkmk100.arsomega.ArsOmega/]: Missing color, expected to find a JsonArray
+[20Jun2024 00:07:06.860] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: deserializing set spell function
+[20Jun2024 00:07:06.860] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: deserializing set spell function
+[20Jun2024 00:07:06.861] [main/INFO] [com.dkmk100.arsomega.ArsOmega/]: deserializing set spell function
+[20Jun2024 00:07:06.972] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement eggdelight:egg_advancement: Non [a-z0-9/._-] character in path of location: minecraft:egg
+
+[20Jun2024 00:07:07.019] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime_slice: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.023] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime_pie: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.027] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/portobello_colony: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.033] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.044] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement eggdelight:boiled_egg_advancement: Non [a-z0-9/._-] character in path of location: eggdelight:boiled_egg
+
+[20Jun2024 00:07:07.045] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/portobello_quiche: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.059] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/pomegranate_cake: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.083] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/lime_cake: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.084] [main/ERROR] [net.minecraft.server.ServerAdvancementManager/]: Parsing error loading custom advancement collectorsreap:recipes/cutting/pomegranate: Missing advancement, expected to find a JsonObject
+[20Jun2024 00:07:07.164] [main/INFO] [net.minecraft.advancements.AdvancementList/]: Loaded 5033 advancements
+[20Jun2024 00:07:07.169] [main/INFO] [slimeknights.mantle.fluid.transfer.FluidContainerTransferManager/]: Loaded 24 dynamic modifiers in 2.150643 ms
+[20Jun2024 00:07:07.172] [main/INFO] [someassemblyrequired.SomeAssemblyRequired/]: Loaded 62 sandwich ingredients
+[20Jun2024 00:07:07.175] [main/INFO] [Diet/]: Loaded 5 diet groups
+[20Jun2024 00:07:07.184] [main/INFO] [Diet/]: Loaded 1 diet suites
+[20Jun2024 00:07:07.196] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id mimi:witch_witchpipe - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mimi:generic_add_drop
+[20Jun2024 00:07:07.196] [main/WARN] [net.minecraftforge.common.loot.LootModifierManager/]: Could not decode GlobalLootModifier with json id mimi:skeleton_bonelute - error: Unknown registry key in ResourceKey[minecraft:root / forge:global_loot_modifier_serializers]: mimi:generic_add_drop
+[20Jun2024 00:07:07.242] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 114 dynamic modifiers and 0 modifier redirects in 43.702423 ms
+[20Jun2024 00:07:07.250] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 38 modifier tags for 134 modifiers in 8.026004 ms
+[20Jun2024 00:07:07.251] [main/INFO] [slimeknights.tconstruct.library.modifiers.ModifierManager/]: Loaded 49 enchantment to modifier mappings in 0.564162 ms
+[20Jun2024 00:07:07.253] [main/INFO] [tconstruct/]: Loaded 49 spilling fluids in 1.720775 ms
+[20Jun2024 00:07:07.258] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 47 materials in 5.622146 ms
+[20Jun2024 00:07:07.259] [main/INFO] [slimeknights.tconstruct.library.materials.definition.MaterialManager/]: Loaded 1 material tags for 19 materials in 0.996271 ms
+[20Jun2024 00:07:07.269] [main/INFO] [slimeknights.tconstruct.library.materials.stats.MaterialStatsManager/]: 347 stats loaded for 59 materials in 9.479807 ms
+[20Jun2024 00:07:07.278] [main/INFO] [slimeknights.tconstruct.library.materials.traits.MaterialTraitsManager/]: 176 traits loaded for 59 materials in 9.198319 ms
+[20Jun2024 00:07:07.290] [main/INFO] [slimeknights.tconstruct.library.tools.definition.ToolDefinitionLoader/]: Loaded 34 tool definitions in 11.766756 ms
+[20Jun2024 00:07:07.295] [main/INFO] [slimeknights.tconstruct.library.tools.layout.StationSlotLayoutLoader/]: Loaded 19 station slot layouts in 4.374475 ms
+[20Jun2024 00:07:10.578] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.19.2
+[20Jun2024 00:07:10.579] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[20Jun2024 00:07:10.580] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[20Jun2024 00:07:10.580] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[20Jun2024 00:07:10.805] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[20Jun2024 00:07:10.820] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[20Jun2024 00:07:11.739] [Server thread/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Jun2024 00:07:12.086] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:the_nether
+[20Jun2024 00:07:12.279] [Server thread/INFO] [terrablender/]: Initialized TerraBlender biomes for level stem minecraft:overworld
+[20Jun2024 00:07:12.279] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[20Jun2024 00:07:12.969] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[20Jun2024 00:07:13.922] [Thread-0/INFO] [journeymap/]: Loading JourneyMap Forge Configs
+[20Jun2024 00:07:19.385] [Worker-Main3/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.387] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.388] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.388] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.389] [Worker-Main2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.390] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.391] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.391] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.392] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.392] [Worker-Main5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.393] [Worker-Main5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.394] [Worker-Main5/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.395] [Worker-Main7/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.471] [Worker-Main2/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[20Jun2024 00:07:19.971] [Worker-Main6/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 8%
+[20Jun2024 00:07:20.471] [Worker-Main4/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 68%
+[20Jun2024 00:07:20.971] [Worker-Main8/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 97%
+[20Jun2024 00:07:21.001] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 8030 ms
+[20Jun2024 00:07:21.001] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (10.042s)! For help, type "help"
+[20Jun2024 00:07:21.051] [Server thread/INFO] [net.minecraftforge.server.permission.PermissionAPI/]: Successfully initialized permission handler forge:default_handler
+[20Jun2024 00:07:21.109] [Server thread/INFO] [Diet/]: Generating diet values...
+[20Jun2024 00:07:21.109] [Server thread/INFO] [Diet/]: Finding ungrouped food items...
+[20Jun2024 00:07:21.135] [Server thread/INFO] [Diet/]: Found 377 ungrouped food items
+[20Jun2024 00:07:21.136] [Server thread/INFO] [Diet/]: Building item-to-recipes map...
+[20Jun2024 00:07:21.174] [Server thread/INFO] [Diet/]: Found 4693 valid items with recipes
+[20Jun2024 00:07:21.174] [Server thread/INFO] [Diet/]: Processing items...
+[20Jun2024 00:07:21.198] [Server thread/INFO] [Diet/]: Processed 581 items
+[20Jun2024 00:07:21.198] [Server thread/INFO] [Diet/]: Generating diet values took 89.36 ms
+[20Jun2024 00:07:21.204] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {iceandfire:fire_dragon_roost=true, iceandfire:fire_lily=true, iceandfire:spawn_dragon_skeleton_fire=true, iceandfire:lightning_dragon_roost=true, iceandfire:spawn_dragon_skeleton_lightning=true, iceandfire:ice_dragon_roost=true, iceandfire:ice_dragon_cave=true, iceandfire:lightning_dragon_cave=true, iceandfire:cyclops_cave=true, iceandfire:spawn_wandering_cyclops=true, iceandfire:spawn_sea_serpent=true, iceandfire:frost_lily=true, iceandfire:hydra_cave=true, iceandfire:lightning_lily=true, iceandfire:pixie_village=true, iceandfire:myrmex_hive_jungle=true, iceandfire:myrmex_hive_desert=true, iceandfire:silver_ore=true, iceandfire:siren_island=true, iceandfire:spawn_dragon_skeleton_ice=true, iceandfire:spawn_stymphalian_bird=true, iceandfire:fire_dragon_cave=true, iceandfire:sapphire_ore=true, iceandfire:spawn_hippocampus=true, iceandfire:spawn_death_worm=true}
+[20Jun2024 00:07:21.205] [Server thread/INFO] [com.github.alexthe666.iceandfire.IceAndFire/]: {TROLL_S=true, HIPPOGRYPH=true, AMPHITHERE=true, COCKATRICE=true, TROLL_M=true, DREAD_LICH=true, TROLL_F=true}
+[20Jun2024 00:07:21.207] [Server thread/INFO] [patchouli/]: Sending reload packet to clients
+[20Jun2024 00:07:49.197] [User Authenticator #1/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Massuter is c3774d3b-23bd-429e-9707-be652d3a7d82
+[20Jun2024 00:07:57.794] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@2790f229
+[20Jun2024 00:07:57.824] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Massuter[/[0:0:0:0:0:0:0:1]:62150] logged in with entity id 224 at (-1.5397917385700393, 67.0, -4.369020072883235)
+[20Jun2024 00:07:57.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter joined the game
+[20Jun2024 00:10:51.844] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Massuter lost connection: Disconnected
+[20Jun2024 00:10:51.847] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter left the game
+[20Jun2024 00:20:38.027] [User Authenticator #2/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Massuter is c3774d3b-23bd-429e-9707-be652d3a7d82
+[20Jun2024 00:20:46.539] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@b9fe742
+[20Jun2024 00:20:46.554] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Massuter[/[0:0:0:0:0:0:0:1]:63021] logged in with entity id 932 at (-30.88268858422506, 69.0, -135.13128626706177)
+[20Jun2024 00:20:46.574] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter joined the game
+[20Jun2024 00:22:07.591] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Massuter lost connection: Disconnected
+[20Jun2024 00:22:07.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter left the game
+[20Jun2024 00:33:36.727] [User Authenticator #3/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Massuter is c3774d3b-23bd-429e-9707-be652d3a7d82
+[20Jun2024 00:33:45.242] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@6a7f0813
+[20Jun2024 00:33:45.257] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Massuter[/[0:0:0:0:0:0:0:1]:63968] logged in with entity id 1467 at (9.947462846068055, 70.0, -91.63498256955957)
+[20Jun2024 00:33:45.283] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter joined the game
+[20Jun2024 00:34:44.243] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Massuter lost connection: Disconnected
+[20Jun2024 00:34:44.245] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter left the game
+[20Jun2024 00:36:47.051] [User Authenticator #4/INFO] [net.minecraft.server.network.ServerLoginPacketListenerImpl/]: UUID of player Massuter is c3774d3b-23bd-429e-9707-be652d3a7d82
+[20Jun2024 00:36:55.596] [Server thread/INFO] [net.minecraftforge.common.AdvancementLoadFix/]: Using new advancement loading for net.minecraft.server.PlayerAdvancements@47e3a140
+[20Jun2024 00:36:55.607] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Massuter[/[0:0:0:0:0:0:0:1]:64217] logged in with entity id 1737 at (-27.69999998807907, 52.0, -77.3466735320895)
+[20Jun2024 00:36:55.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter joined the game
+[20Jun2024 00:37:43.099] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Massuter lost connection: Disconnected
+[20Jun2024 00:37:43.100] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Massuter left the game
+[20Jun2024 00:39:31.385] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[20Jun2024 00:39:31.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[20Jun2024 00:39:31.386] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[20Jun2024 00:39:32.271] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[20Jun2024 00:39:32.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[20Jun2024 00:39:32.595] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/arsomega:demon_realm
+[20Jun2024 00:39:32.596] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[20Jun2024 00:39:32.597] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/tropicraft:tropics
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (demon_realm): All chunks are saved
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (tropics): All chunks are saved
+[20Jun2024 00:39:32.628] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
