@@ -44,7 +44,7 @@
 	[Dragons.Griefing]
 		#Dragon griefing - 2 is no griefing, 1 is breaking weak blocks, 0 is default. This value is also affected by minecrafts mob griefing rule.
 		#Range: 0 ~ 2
-		"Dragon Griefing" = 0
+		"Dragon Griefing" = 2
 		#True if tamed dragons can follow the griefing rules.
 		"Tamed Dragon Griefing" = true
 		#The percentage chance for a block to drop as an item when a dragon breaks it.
@@ -148,7 +148,7 @@
 		"Cyclops Max Health" = 150.0
 		#How many blocks away can cyclopes detect sheep. Note that increasing this could cause lag.
 		#Range: 1 ~ 10000
-		"Cyclopes Sheep Search Length" = 17
+		"Cyclopes Sheep Search Length" = 1
 		#Cyclops attack strength
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Attack Strength" = 15.0
@@ -156,7 +156,7 @@
 		#Range: 1.0 ~ 10000.0
 		"Cyclops Bite Strength" = 40.0
 		#Whether or not cyclops can break logs or leaves in their way
-		"Cyclops Griefing" = true
+		"Cyclops Griefing" = false
 
 	[Mobs.Sirens]
 		#Maximum siren health
